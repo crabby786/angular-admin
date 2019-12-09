@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         }
       },
       "root": "",
@@ -28,8 +28,27 @@
               "src/assets"
             ],
             "styles": [
-              "src/myTheme.scss",
-              "src/styles.sass"
+              "src/styles.scss",
+              {
+                "input": "src/assets/pink-grey.css",
+                "lazy": true,
+                "bundleName": "pink-grey"
+              },
+              {
+                "input": "src/assets/purple-green.css",
+                "lazy": true,
+                "bundleName": "purple-green"
+              },
+              {
+                "input": "src/assets/indigo-pink.css",
+                "lazy": true,
+                "bundleName": "indigo-pink"
+              },
+              {
+                "input": "src/assets/deeppurple-amber.css",
+                "lazy": true,
+                "bundleName": "deeppurple-amber"
+              }
             ],
             "scripts": []
           },

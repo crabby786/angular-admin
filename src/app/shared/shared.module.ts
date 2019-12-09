@@ -20,11 +20,13 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { DashboardComponent } from '../Pages/dashboard/dashboard.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
+import { ThemePickerComponent } from './theme-picker/theme-picker.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 
 
 @NgModule({
-  declarations: [NavComponent, TableComponent, MatFormComponent, DashboardComponent],
+  declarations: [NavComponent, TableComponent, MatFormComponent, DashboardComponent, ThemePickerComponent, NavBarComponent],
   imports: [
     CommonModule,
     LayoutModule,
