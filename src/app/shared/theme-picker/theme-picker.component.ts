@@ -61,9 +61,6 @@ export class ThemePickerComponent implements OnInit {
   }
 
 }
-
-
-
 export interface CustomTheme {
   name: string;
   accent: string;

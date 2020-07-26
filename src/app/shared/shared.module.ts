@@ -21,12 +21,11 @@ import { DashboardComponent } from '../Pages/dashboard/dashboard.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatMenuModule } from '@angular/material/menu';
 import { ThemePickerComponent } from './theme-picker/theme-picker.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 
 
 @NgModule({
-  declarations: [NavComponent, TableComponent, MatFormComponent, DashboardComponent, ThemePickerComponent, NavBarComponent],
+  declarations: [NavComponent, TableComponent, MatFormComponent, DashboardComponent, ThemePickerComponent],
   imports: [
     CommonModule,
     LayoutModule,
